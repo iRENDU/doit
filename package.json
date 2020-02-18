@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test task",
+  "scripts": {
+    "import": "node src/app.js",
+    "test": "mocha",
+    "report": "mocha --reporter mochawesome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "csv": "^5.3.1",
+    "mocha": "^7.0.1",
+    "mochawesome": "^4.1.0",
+    "mongodb": "^3.5.3"
+  }
+}
